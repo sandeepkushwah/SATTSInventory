@@ -1,0 +1,20 @@
+API Developement
+
+Project Setup - ~20 mins
+
+Entity Creation - ~10 mins
+Start Time  - 15th July 2:45 PM
+End time - 15th July 2:53 PM
+
+APIs
+Start Time  - 19th July 03:07 PM
+End Time - 19th July 04:01 PM
++ Time required to modify the APIs while writing the Test Case.
+
+Tests
+Start Time  - 19th July 04:02 PM
+End Time - 19th July 05:30 PM
+
+Both Test Cases and APIs completed ~3hours
+
+
