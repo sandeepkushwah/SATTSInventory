@@ -1,0 +1,51 @@
+<div>
+    <div class="row">
+        <div class="col-xs-12 col-md-12">
+            <form #beverageForm="ngForm" (ngSubmit)="save(beverageForm.value)">
+                <div class="input-group">
+
+                    <input type="text" class="form-control col-xs-2 col-md-2" id="teaName" placeholder="Enter Tea Name"
+                        [(ngModel)]="beverage.Name" required name="Name">
+
+                    <input type="text" class="form-control col-xs-6 col-md-6" id="tesDescription"
+                        placeholder="Enter New Tea Description" [(ngModel)]="beverage.Description" required
+                        name="Description">
+
+                    <input type="number" class="form-control col-xs-2 col-md-2" id="teaPrice"
+                        placeholder="Enter New Price" [(ngModel)]="beverage.Price" required name="Price">
+
+                    <div class="input-group-btn  col-xs-2 col-md-2">
+                        <button type="submit" class="btn btn-primary col-xs-12 col-md-12"
+                            [disabled]="!beverageForm.form.valid">Add Tea</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <br />
+
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Tea Name</th>
+                <th scope="col">Price</th>
+                <th scope="col">Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr *ngFor="let beverage of beverages; let i = index" [routerLink]="['/beverage-inventory-edit', beverage.Id]">
+                <td scope="row">{{i + 1}}</td>
+                <td>{{beverage.Name}}</td>
+                <td>{{beverage.Price}}</td>
+                <td>
+                    <button class="btn btn-warning" (click)="remove(beverage.Id)" *ngIf="beverage.Id">Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+</div>

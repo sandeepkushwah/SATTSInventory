@@ -1,0 +1,27 @@
+<h4>Edit Tea Details</h4>
+
+<div class="col-xs-12 col-md-12">
+    <form #beverageForm="ngForm" (ngSubmit)="save(beverageForm.value)">
+        <input type="hidden" name="id" [(ngModel)]="beverage.Id">
+        <div class="form-group">
+            <label for="teaName">Tea Name</label>
+            <input type="text" class="form-control" id="teaName" placeholder="Enter Tea Name"
+                [(ngModel)]="beverage.Name" required name="Name">
+        </div>
+        <div class="form-group">
+            <label for="tesDescription">Description</label>
+            <input type="text" class="form-control" id="tesDescription" placeholder="Enter Tea Description"
+                [(ngModel)]="beverage.Description" required name="Description">
+        </div>
+        <div class="form-group">
+
+            <label for="teaPrice">Price</label>
+            <input type="number" class="form-control" id="teaPrice" placeholder="Enter Tea Price"
+                [(ngModel)]="beverage.Price" required name="Price">
+        </div>
+        <button type="submit" class="btn btn-primary col-xs-5 col-md-5"
+            [disabled]="!beverageForm.form.valid">Save</button>
+        <span class="col-xs-2 col-md-2"></span>
+        <a class="btn btn-secondary  col-xs-5 col-md-5 float-right" routerLink="/beverage-inventory-list">Back To List</a>
+    </form>
+</div>
