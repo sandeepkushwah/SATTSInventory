@@ -17,4 +17,9 @@ End Time - 19th July 05:30 PM
 
 Both Test Cases and APIs completed ~3hours
 
+Logging and Exception Handling Implemention
+Start Time - 22nd July 11:20PM
+End Time - 22nd July 12:45PM
 
+Bug Fixing/Troubleshooting issues
+Around 1 hour.
