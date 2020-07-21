@@ -2,7 +2,7 @@
 
 <div class="col-xs-12 col-md-12">
     <form #beverageForm="ngForm" (ngSubmit)="save(beverageForm.value)">
-        <input type="hidden" name="id" [(ngModel)]="beverage.Id">
+        <input type="hidden" name="Id" [(ngModel)]="beverage.Id">
         <div class="form-group">
             <label for="teaName">Tea Name</label>
             <input type="text" class="form-control" id="teaName" placeholder="Enter Tea Name"
