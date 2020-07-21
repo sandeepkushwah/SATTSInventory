@@ -1,0 +1,44 @@
+API Developement
+
+Project Setup - ~10 mins(including installation of bootstarp and jquery)
+Generating Components and Creating Shared Folder Structure - 10 mins
+
+Create TS Entity - ~5 mins
+Start Time  - 15th July 09:03 AM
+End time - 15th July 09:08 AM
+
+Create Service
+Start Time  - 15th July ‏‎10:06 AM
+End Time - ‎15th July ‏‎10:49 AM
+
+Update app.module.ts
+Start Time  - 15th July 10:50 AM
+End Time - ‎15th July 10:53 AM
+Start Time  - 15th July 02:15 PM
+End Time - 15th July 02:18 AM
+
+Home/List/Delete feature Components Development
+Start Time  - 15th July 11:26 AM
+End Time - 15th July 02:15 PM
+
+Edit Component Component Developement
+Start Time  - 21st July 06:37 PM
+End Time - 21st July 7:30 PM
+
+Start Time  - 21st July 11:30 PM
+End Time - 22nd July 12:25 AM
+
+Routing - add routes in app-routing.module.ts
+Start Time  - 15th July 02:16 AM
+End Time - 15th July 02:26 PM
+
+Start Time  - 22nd July 12:25 AM
+End Time - 22nd July 12:34 AM
+
+Testing- Refactoring the code.
+Start Time  - 22nd July 12:35 AM
+End Time - 22nd July 01:20 AM
+
+
+Bug Fixing/Troubleshooting issues
+Around 7-8 hour. Finally found that it was not an issue and the problem was with Edge browser. After running the same code in chrome was working fine.
