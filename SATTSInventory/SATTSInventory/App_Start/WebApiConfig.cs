@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SATTSInventory.Common;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
@@ -22,7 +23,7 @@ namespace SATTSInventory
             );
 
             config.Formatters.Remove(config.Formatters.XmlFormatter);
-
+            config.MessageHandlers.Add(new RequestResponseLogHandler());
             var cors = new EnableCorsAttribute("*", "*", "*");
             config.EnableCors(cors);
         }

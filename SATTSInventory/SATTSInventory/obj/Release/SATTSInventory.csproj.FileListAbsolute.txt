@@ -86,3 +86,5 @@ C:\Users\skushwah\source\repos\SATTSInventory\SATTSInventory\obj\Release\SATTSIn
 C:\Users\skushwah\source\repos\SATTSInventory\SATTSInventory\obj\Release\SATTSInventory.csproj.CopyComplete
 C:\Users\skushwah\source\repos\SATTSInventory\SATTSInventory\obj\Release\SATTSInventory.dll
 C:\Users\skushwah\source\repos\SATTSInventory\SATTSInventory\obj\Release\SATTSInventory.pdb
+C:\Users\skushwah\source\repos\SATTSInventory\SATTSInventory\bin\log4net.dll
+C:\Users\skushwah\source\repos\SATTSInventory\SATTSInventory\bin\log4net.xml

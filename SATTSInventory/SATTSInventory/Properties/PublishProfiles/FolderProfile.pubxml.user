@@ -15,6 +15,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/EntityFramework.SqlServer.dll">
       <publishTime>04/16/2020 20:38:56</publishTime>
     </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>03/08/2017 19:26:22</publishTime>
+    </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
       <publishTime>09/05/2018 17:10:50</publishTime>
     </File>
@@ -172,10 +175,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/08/2018 13:18:16</publishTime>
     </File>
     <File Include="bin/SATTSInventory.dll">
-      <publishTime>07/19/2020 15:08:02</publishTime>
+      <publishTime>07/21/2020 15:13:01</publishTime>
     </File>
     <File Include="bin/SATTSInventory.pdb">
-      <publishTime>07/19/2020 15:08:02</publishTime>
+      <publishTime>07/21/2020 15:13:01</publishTime>
     </File>
     <File Include="bin/System.Net.Http.Formatting.dll">
       <publishTime>11/28/2018 13:00:36</publishTime>
@@ -217,7 +220,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/15/2020 14:13:07</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>07/19/2020 02:43:41</publishTime>
+      <publishTime>07/21/2020 15:13:01</publishTime>
     </File>
   </ItemGroup>
 </Project>

@@ -47,3 +47,5 @@ C:\Users\skushwah\source\repos\SATTSInventory\SATTSInventory.Tests\obj\Debug\SAT
 C:\Users\skushwah\source\repos\SATTSInventory\SATTSInventory.Tests\obj\Debug\SATTSInventory.Tests.csproj.CopyComplete
 C:\Users\skushwah\source\repos\SATTSInventory\SATTSInventory.Tests\obj\Debug\SATTSInventory.Tests.dll
 C:\Users\skushwah\source\repos\SATTSInventory\SATTSInventory.Tests\obj\Debug\SATTSInventory.Tests.pdb
+C:\Users\skushwah\source\repos\SATTSInventory\SATTSInventory.Tests\bin\Debug\log4net.dll
+C:\Users\skushwah\source\repos\SATTSInventory\SATTSInventory.Tests\bin\Debug\log4net.xml
