@@ -36,9 +36,9 @@
         </thead>
         <tbody>
 
-            <tr *ngFor="let beverage of beverages; let i = index" [routerLink]="['/beverage-inventory-edit', beverage.Id]">
+            <tr *ngFor="let beverage of beverages; let i = index">
                 <td scope="row">{{i + 1}}</td>
-                <td>{{beverage.Name}}</td>
+                <td [routerLink]="['/beverage-inventory-edit', beverage.Id]">{{beverage.Name}}</td>
                 <td>{{beverage.Price}}</td>
                 <td>
                     <button class="btn btn-warning" (click)="remove(beverage.Id)" *ngIf="beverage.Id">Delete</button>
